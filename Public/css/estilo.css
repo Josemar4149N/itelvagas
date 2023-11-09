@@ -1,0 +1,121 @@
+/* Configurações inicias */
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    font-size: 100%;
+    outline: none;
+    font-family: 'Montserrat';
+}
+img{max-width: 100%;}
+a{text-decoration: none;}
+ul{list-style: none;}
+p{font-size: 1.2em;}
+h1{font-size: 1.5em}
+/*Menu*/
+nav {
+    float: left;
+    width: 100%;
+}
+.menu .logo{
+    float: left;
+    padding: 15px 8%;
+    color: rgb(3, 55, 197);
+}
+.menu li{
+    float: left;
+    padding: 20px 1%;
+    font-size: 1.2em;
+    color: #000000;
+}
+.menu form{
+    float: left;
+    padding: 25px 8%;
+}
+.menu form span{
+    border: 1px solid rgb(230, 228, 228);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.menu form i{
+    background-color: #fff;
+}
+.menu li:hover{
+    color: rgb(15, 90, 160);
+}
+
+/* Conteudo principal */
+
+
+
+/* Newsletter */
+
+.newsletter{
+    margin-top: 100px;
+    width: 100%;
+    display: inline-flex;
+    background-color: #252525;
+}
+.newsletter .sobre-nos{
+    float: left;
+    padding: 50px;
+    width: 30%;
+}
+.newsletter .sobre-nos p{
+    margin-top: 30px;
+    color: grey;
+    text-align: justify;
+}
+.newsletter .sobre-nos li{
+    padding: 10px 10px;
+    float: left;
+}
+.newsletter .sobre-nos i{
+    color: #fff;
+}
+.newsletter .serviços {    
+    padding: 50px 30px;
+}
+.newsletter .serviços p{
+    margin-top: 35px;
+}
+.newsletter h1{
+    color: #fff;
+}
+.newsletter .serviços p{
+    
+    color: grey;
+}
+.newsletter .relacionados{
+    padding: 50px;
+    margin-left: 30px;
+}
+.newsletter .relacionados a{
+    color: grey;
+}
+.newsletter .relacionados h2{
+    margin-top: 35px;
+}
+
+.newsletter .comentario{
+    padding: 50px;
+    margin-left: 40px;
+    background-color: rgb(49, 47, 47);
+}
+.newsletter .comentario h1{
+    font-size: 1.2em;
+}
+.newsletter .comentario p{
+    color: grey;
+    font-size: 1em;
+    padding: 20px 0;
+}
+.newsletter button{
+    background-color: blue;
+    color: #fff;
+    width: 85%;
+    height: 45px;
+    border-radius: 5px;
+}
